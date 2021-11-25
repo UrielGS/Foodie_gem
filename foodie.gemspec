@@ -11,7 +11,9 @@ Gem::Specification.new do |spec|
   spec.summary       = "A simple gem from ruby guides."
   spec.homepage      = "https://guides.rubygems.org/example"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+
   spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_dependency "activesupport"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
