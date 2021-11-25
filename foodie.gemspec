@@ -8,16 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors       = ["UrielGS"]
   spec.email         = ["oscarGuzmansuper13@hotmail.com"]
 
-  spec.summary       = "TODO: A simple gem from ruby guides."
-  spec.homepage      = "TODO: https://github.com."
+  spec.summary       = "A simple gem from ruby guides."
+  spec.homepage      = "https://rubygems.org/gems/example"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+
   spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_dependency "activesupport"
+  spec.add_development_dependency "cucumber"
+  spec.add_development_dependency "aruba"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
