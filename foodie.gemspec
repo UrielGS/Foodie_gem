@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["oscarGuzmansuper13@hotmail.com"]
 
   spec.summary       = "A simple gem from ruby guides."
+  spec.description = "A gem for foodie"
   spec.homepage      = "https://guides.rubygems.org/example"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
